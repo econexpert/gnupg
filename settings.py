@@ -1,0 +1,4 @@
+FTP = ''
+USERNAME = ''
+PASSWORD = ''
+GNURECIPIENT = ''
