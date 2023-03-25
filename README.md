@@ -13,3 +13,5 @@ pip3 install -r requirements.txt
 ```
 python3 public-synroencryption.py
 ```
+
+**Note:** it saves passphrase in settings.py file. Delete that file or edit. 
