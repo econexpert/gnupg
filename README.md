@@ -15,3 +15,15 @@ python3 public-synroencryption.py
 ```
 
 **Note:** it saves passphrase in settings.py file. Delete that file or edit. 
+
+## to decrypt in Linux terminal with GPG     
+will be promted for passphrase after entering command below into Linux terminal, file contents displayed in terminal screen:
+```
+gpg -d filename.gpg
+```
+instead of terminal screen to save into file:
+```
+gpg --output filename.txt -d filename.txt.gpg
+```
+
+**Let's enjoy open source encryption!**
