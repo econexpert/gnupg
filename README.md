@@ -1,26 +1,31 @@
-# Python script for gnupg
-Simple program to use gnupg Python module with tkinter. This uses synchronous encryption (will passphrase)
+# Python script for GnuPG
+Simple Program to Use GnuPG Python Module with Tkinter for Synchronous Encryption
 
-See demonstration in Twitter video:  
+This program demonstrates how to use the GnuPG Python module with Tkinter for synchronous encryption.      
+Please note that this method requires a passphrase and should not be used for encrypting sensitive data.      
+
+To see a demonstration, please check out the Twitter video linked below.
 
 <blockquote class="twitter-tweet"><a href="https://twitter.com/econexpert/status/1639548054196854784">Twitter video link</a></blockquote> 
 
-Please don't user to encrypt data, you will lose your data.
+**Instructions:**    
+To use this program, download the three necessary files and save them into a single folder. 
 
-Suggested usage:
-1. Download three files into one folder
-2. Install requirements: 
+Before running the program, make sure to install the required dependencies.
+
 ```
 pip3 install -r requirements.txt
 ```
-3. Run file:
+To run file:
 ```
 python3 public-synroencryption.py
 ```
+Please don't user to encrypt data, you will lose your data.
+
 
 **Note:** it saves passphrase in settings.py file. Delete that file or edit. 
 
-## to decrypt in Linux terminal with GPG     
+## To decrypt in Linux terminal with GPG     
 will be promted for passphrase after entering command below into Linux terminal, file contents displayed in terminal screen:
 ```
 gpg -d filename.gpg
