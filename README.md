@@ -1,3 +1,19 @@
+# Python script for GPG
+Simple Program to Use Linux GPG with Tkinter for Synchronous Encryption
+
+Please note that this method requires a passphrase and should not be used for encrypting sensitive data.
+
+Instructions:
+To use this program, download public-synroencryptionGPG.py and save them into a single folder.
+
+To run file:
+```
+python3 public-synroencryptionGPG.py   
+```
+Please don't user to encrypt data, you will lose your data.
+
+Note: it saves passphrase in settings.py file. Delete that file or edit.
+
 # Python script for GnuPG
 Simple Program to Use GnuPG Python Module with Tkinter for Synchronous Encryption
 
