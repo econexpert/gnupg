@@ -41,14 +41,21 @@ Please don't user to encrypt data, you will lose your data.
 
 **Note:** it saves passphrase in settings.py file. Delete that file or edit. 
 
-## To decrypt in Linux terminal with GPG     
-will be promted for passphrase after entering command below into Linux terminal, file contents displayed in terminal screen:
+## Decrypting in the Linux Terminal with GPG
+   
+To decrypt a file using GPG in the Linux terminal and display the contents in the terminal screen, enter the following command:
+   
 ```
 gpg -d filename.gpg
 ```
-instead of terminal screen to save into file:
+To save the decrypted contents to a file, enter the following command: 
+
 ```
 gpg --output filename.txt -d filename.txt.gpg
 ```
+
+Demonstration in Twitter video: 
+
+<blockquote class="twitter-tweet"><a href="https://twitter.com/econexpert/status/1643880707901607936">Twitter video link</a></blockquote> 
 
 **Let's enjoy open source encryption!**
