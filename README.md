@@ -54,8 +54,11 @@ To save the decrypted contents to a file, enter the following command:
 gpg --output filename.txt -d filename.txt.gpg
 ```
 
-Demonstration in Twitter video: 
+Demonstration video: 
 
-<blockquote class="twitter-tweet"><a href="https://twitter.com/econexpert/status/1643880707901607936">Twitter video link</a></blockquote> 
+https://github.com/econexpert/gnupg/assets/7473991/030d032a-8eba-433a-9c32-b183f0eec948
+
+<blockquote class="twitter-tweet"><a href="https://twitter.com/econexpert/status/1643880707901607936">Twitter link</a></blockquote> 
+
 
 **Let's enjoy open source encryption!**
